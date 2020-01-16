@@ -22,6 +22,7 @@
             <a th:href="@{|/details-produit/${produit.id}|}" >
                 <img th:src="${produit.image}"  class="card-img-top" />
                 <p th:text= "${produit.titre}"></p>
+                <p th:text= "${produit.prix}"></p>
             </a>
         </div>
     </div>
